@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100%;
+}
+
+.grid-container {
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: repeat(5, 20%);
+}
+
+.navigation {
+    grid-area: 1 / 1 / 6 / 2;
+}
+
+.header {
+    grid-area: 1 / 2 / 2 / 6;
+}
+
+.content {
+    grid-area: 2 / 2 / 6 / 6;
+}
