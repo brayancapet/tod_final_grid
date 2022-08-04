@@ -91,8 +91,8 @@ body {
     grid-area: 1 / 2 / 2 / 6;
     display: grid;
     grid-template-columns: repeat(5, 20%);
-    grid-template-rows: repeat(2, 50%);
-    background-color: #4ade80;
+    grid-template-rows: repeat(2, 50%);	
+    background-image: linear-gradient(to left top, #2f4858, #2f3949, #2b2c38, #242027, #191518, #191518, #1a1519, #1a1519, #24202a, #272d3c, #243b4d, #1a4b5a);
 }
 
 /* Container for a section in the header section*/
@@ -115,7 +115,7 @@ body {
 /* Container for my content section where the tasks will be shown */
 .content {
     grid-area: 2 / 2 / 6 / 6;
-    background-color: #bbf7d0;
+    background-color: #fff;
     display: grid;
     grid-template-columns: repeat(4, 25%);
     grid-template-rows: repeat(2, 50%);
@@ -205,6 +205,7 @@ body {
 #name {
     font-weight: 800;
     font-size: 1.3rem;
+    color: #eee;
 }
 
 .btn-header {
@@ -239,7 +240,7 @@ body {
     align-items: center;
 }
 .icon-bell {
-    height: 40px;
+    height: 30px;
     width: auto;
     cursor: pointer;
 }
@@ -260,6 +261,7 @@ body {
 .name-profile > p {
     font-size: 1.5rem;
     font-weight: 500;
+    color: #eee;
 }
 
 .little-pic {
@@ -299,10 +301,10 @@ body {
     width: 90%;
     background-color: #eee;
     border-radius: 0.375rem;
-    box-shadow: 0px 5px 5px #25242a;
-    border-left: 10px solid #4ade80;
+    box-shadow: 0px 5px 5px gray;
+    border-left: 10px solid rgba(74, 222, 128, 0.5);
     display: grid;
-    grid-template-rows: repeat(2, 50%);
+    grid-template-rows: 70% 30%;
     
 }
 
@@ -311,7 +313,7 @@ body {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-start;
-    padding: 15px;
+    padding: 4%;
 }
 
 .top-div > p {
@@ -359,7 +361,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 5px 5px #25242a;
+    box-shadow: 0 5px 5px gray;
 }
 
 .announcement-table > div {
@@ -413,7 +415,7 @@ body {
     width: 90%;
     background-color: #eee;
     border-radius: 0.375rem;
-    box-shadow: 0px 5px 5px #25242a;
+    box-shadow: 0px 5px 5px gray;
     display: flex;
     flex-direction: column;
     justify-content: center;
